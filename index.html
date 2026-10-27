@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mayank Pandey | Supply Chain</title>
+<meta name="description" content="Mayank Manish Pandey, USC MS Engineering Management student focused on sourcing, inventory, and demand planning. Explore my work as a supply chain network.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="sc.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Mayank Pandey</a>
+    <nav>
+      <a href="#network">Network</a>
+      <a href="#kpis">Performance</a>
+      <a href="#resilience">Resilience</a>
+      <a href="#profile">Profile</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="hero" id="network">
+      <div class="eyebrow">Supply Chain Network</div>
+      <h1>Mayank Manish Pandey</h1>
+      <p class="lead">My work, mapped as a supply chain: sourcing, building, delivering, serving demand, and the planning layer that keeps it all in balance. Click any node to see what I did there.</p>
+      <div class="btns">
+        <a class="btn primary" href="resume-supply-chain.pdf">Download resume</a>
+        <a class="btn ghost" href="https://linkedin.com/in/mayank-manish-pandey">LinkedIn</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+
+      <div class="net-wrap" id="net">
+        <svg class="net-svg" id="lines" aria-hidden="true"></svg>
+
+        <div class="stages">
+          <div class="stage">
+            <h3>Source<i></i></h3>
+            <div class="col">
+              <button class="node r1" data-id="kiravi-sup" type="button"><b>Kiravi supplier network</b><small>Founder and Operations Lead</small><span class="m">30+<span>suppliers</span></span></button>
+              <button class="node r2" data-id="midway-proc" type="button"><b>Midway procurement</b><small>Assistant Project Manager</small><span class="m">11%<span>material cost cut</span></span></button>
+            </div>
+          </div>
+          <div class="stage">
+            <h3>Make<i></i></h3>
+            <div class="col">
+              <button class="node r2" data-id="midway-inst" type="button"><b>HVAC installation</b><small>Midway Comforts, $2.1M project</small><span class="m">98%<span>on-time delivery</span></span></button>
+              <button class="node r3" data-id="solus" type="button"><b>Smart locker build</b><small>Solus Security Systems</small><span class="m">2 mo<span>to production-ready</span></span></button>
+            </div>
+          </div>
+          <div class="stage">
+            <h3>Deliver<i></i></h3>
+            <div class="col">
+              <button class="node r1" data-id="kiravi-ful" type="button"><b>Kiravi fulfillment</b><small>Vendor-managed drop-ship</small><span class="m">35%<span>faster dispatch</span></span></button>
+            </div>
+          </div>
+          <div class="stage">
+            <h3>Serve demand<i></i></h3>
+            <div class="col">
+              <button class="node r2" data-id="secure" type="button"><b>Market entry</b><small>Secure Meters Ltd.</small><span class="m">~50<span>unit order from a demo</span></span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan-band">
+          <h3>Plan and control layer</h3>
+          <div class="plan-grid">
+            <button class="node" data-id="forecast" type="button"><b>Demand forecasting</b><small>Python, Prophet, Streamlit</small><span class="m">25%<span>lower forecast error</span></span></button>
+            <button class="node" data-id="dualsrc" type="button"><b>Dual-sourcing calculator</b><small>TCO and risk tool, 5 countries</small><span class="m">5<span>countries modeled</span></span></button>
+            <button class="node" data-id="cases" type="button"><b>Sourcing cases</b><small>USC DSO 506</small><span class="m">2<span>case analyses</span></span></button>
+            <button class="node" data-id="stockbridge" type="button"><b>StockBridge</b><small>AI inventory agent</small><span class="m">3rd<span>of 15 teams</span></span></button>
+            <button class="node" data-id="antworks" type="button"><b>Exception control</b><small>USC / ANTWORKS</small><span class="m">~25%<span>fewer errors</span></span></button>
+          </div>
+        </div>
+
+        <p class="net-note">Illustrative map: each node is one of my roles or projects, placed by supply chain stage. It is not a single real supply chain.</p>
+      </div>
+
+      <div class="panel" id="panel" aria-live="polite">
+        <div class="stage-tag">Select a node</div>
+        <h3>Start anywhere</h3>
+        <p class="meta">Click a node on the map to see scope, results, and links.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Node details, copied into the panel on click -->
+  <noscript><style>#details{display:block !important;}</style></noscript>
+  <div id="details">
+
+    <article data-id="kiravi-sup" data-stage="Source">
+      <h3>Kiravi supplier network</h3>
+      <p class="meta">Founder and Operations Lead, Kiravi Lifestyle, Remote, Jul 2024 to Jul 2025</p>
+      <div class="metrics"><div><b>30+</b><span>suppliers onboarded</span></div><div><b>50+</b><span>vendor evaluations</span></div><div><b>2</b><span>qualified suppliers on key products</span></div></div>
+      <ul>
+        <li>Built a 30+ supplier network from 50+ vendor evaluations, comparing cost, lead time, product fit, and reliability.</li>
+        <li>Negotiated drop-ship and prepay-and-hold arrangements: pay upfront for agreed pricing and priority access during demand surges.</li>
+        <li>Dual-sourced key products across two qualified suppliers so a delivery miss or stockout at one did not halt fulfillment.</li>
+      </ul>
+    </article>
+
+    <article data-id="midway-proc" data-stage="Source">
+      <h3>Midway procurement</h3>
+      <p class="meta">Assistant Project Manager, Midway Comforts, Mumbai, Jul 2024 to Feb 2025</p>
+      <div class="metrics"><div><b>11%</b><span>material cost reduction</span></div><div><b>35</b><span>suppliers coordinated</span></div><div><b>20+</b><span>purchase orders</span></div></div>
+      <ul>
+        <li>Analyzed BOQ costs and supplier pricing, moving the company from the third-highest to the lowest-cost bid.</li>
+        <li>That analysis helped win the $2.1M HVAC contract.</li>
+        <li>Coordinated procurement with engineering and site teams across 35 suppliers and 20+ purchase orders.</li>
+      </ul>
+    </article>
+
+    <article data-id="midway-inst" data-stage="Make">
+      <h3>HVAC installation delivery</h3>
+      <p class="meta">Assistant Project Manager, Midway Comforts, Mumbai, Jul 2024 to Feb 2025</p>
+      <div class="metrics"><div><b>98%</b><span>on-time delivery</span></div><div><b>$2.1M</b><span>contract value</span></div></div>
+      <ul>
+        <li>Maintained 98% on-time delivery on a $2.1M HVAC installation by tracking schedule, budget, milestones, and risks.</li>
+        <li>Coordinated engineering, procurement, suppliers, and site teams.</li>
+      </ul>
+    </article>
+
+    <article data-id="solus" data-stage="Make">
+      <h3>Smart locker build</h3>
+      <p class="meta">Embedded Systems Intern, Solus Security Systems, Bangalore, May to Jul 2023</p>
+      <div class="metrics"><div><b>2 months</b><span>to production-ready</span></div><div><b>3</b><span>core elements integrated</span></div></div>
+      <ul>
+        <li>Shipped a production-ready smart-locker product in 2 months, owning prototype development, firmware integration, and production hardware validation.</li>
+        <li>Resolved integration issues across RFID authentication, a DWIN DGUS touchscreen HMI, and Embedded C firmware.</li>
+      </ul>
+    </article>
+
+    <article data-id="kiravi-ful" data-stage="Deliver">
+      <h3>Kiravi fulfillment</h3>
+      <p class="meta">Founder and Operations Lead, Kiravi Lifestyle, Remote, Jul 2024 to Jul 2025</p>
+      <div class="metrics"><div><b>35%</b><span>faster dispatch in 2 weeks</span></div><div><b>~30%</b><span>fewer stockouts</span></div><div><b>~34%</b><span>procurement cost recovered</span></div><div><b>~60</b><span>orders a month</span></div></div>
+      <ul>
+        <li>Redesigned fulfillment around a vendor-managed drop-ship model across about 60 monthly orders.</li>
+        <li>Recovered about 34% of procurement cost on aging inventory by analyzing sell-through, prioritizing deadstock, and running a targeted clearance campaign.</li>
+        <li>Queried Shopify order and inventory data in MySQL and Excel.</li>
+      </ul>
+    </article>
+
+    <article data-id="secure" data-stage="Serve demand">
+      <h3>Market entry for an HVAC-control product</h3>
+      <p class="meta">Sales and Marketing Trainee, Secure Meters Ltd., Mumbai, Jan to Jun 2024</p>
+      <div class="metrics"><div><b>70+</b><span>field engagements</span></div><div><b>~50</b><span>unit order from one demo</span></div><div><b>~5%</b><span>regional sales growth</span></div></div>
+      <ul>
+        <li>Ran pre-launch go-to-market work: defined target customers, refined positioning, and coordinated 3 product demos.</li>
+        <li>Synthesized customer requirements, competitor pricing, delivery expectations, and field feedback into a market-entry report for regional leadership.</li>
+      </ul>
+    </article>
+
+    <article data-id="forecast" data-stage="Plan">
+      <h3>Demand forecasting and inventory simulation</h3>
+      <p class="meta">Python, Prophet, Streamlit. Amazon India fashion data</p>
+      <div class="metrics"><div><b>25%</b><span>forecast error reduction</span></div><div><b>26.5%</b><span>safety stock reduction</span></div></div>
+      <ul>
+        <li>Forecast demand and cut forecast error by 25%.</li>
+        <li>Traced a recurring seasonal surge to Eid festival buying, then modeled reorder points and safety stock against it for a 26.5% safety stock reduction.</li>
+        <li>Interactive Streamlit dashboard, deployed from GitHub.</li>
+      </ul>
+      <!-- TODO: add GitHub and Streamlit Cloud links here -->
+    </article>
+
+    <article data-id="dualsrc" data-stage="Plan">
+      <h3>Dual-sourcing TCO and risk calculator</h3>
+      <p class="meta">Interactive web tool with a newsvendor model</p>
+      <div class="metrics"><div><b>5</b><span>countries compared</span></div></div>
+      <ul>
+        <li>Self-service tool: enter demand and supplier inputs and get a recommended sourcing split.</li>
+        <li>Compares the USA, India, China, Vietnam, and Mexico on lead time, currency, labor, transportation cost, and tariffs.</li>
+        <li>Newsvendor model sets order quantities per SKU under demand uncertainty, and an analog method forecasts demand for new product launches.</li>
+        <li>Tested against real demand and cost data from the Mexico-China sourcing game.</li>
+      </ul>
+      <!-- TODO: add tool link and GitHub link here -->
+    </article>
+
+    <article data-id="cases" data-stage="Plan">
+      <h3>Sourcing cases and simulations</h3>
+      <p class="meta">USC DSO 506, Sourcing and Supplier Management</p>
+      <ul>
+        <li><strong>Mexico-China dual-sourcing simulation:</strong> group analysis of pipeline priming, plant allocation, and the strategic split between sources.</li>
+        <li><strong>Polaris Industries (Kellogg KEL725):</strong> why Polaris outsources most components but keeps final assembly, and which of the US, Mexico, or China gives the greatest cost savings, with sensitivity to FX swings and wage growth.</li>
+      </ul>
+    </article>
+
+    <article data-id="stockbridge" data-stage="Plan">
+      <h3>StockBridge: agentic inventory prototype</h3>
+      <p class="meta">USC Marshall AI Product Showdown, Oct 2026, 4-person team</p>
+      <div class="metrics"><div><b>3rd / 15</b><span>teams</span></div><div><b>72.5%</b><span>rows matched without AI</span></div><div><b>2.9x</b><span>modeled payback</span></div></div>
+      <ul>
+        <li>Working prototype for a 300-SKU catalog across 2 regions and 6 channels: stocklist ingestion, SKU matching, demand forecasting, order recommendations, receiving, and human-approved marketplace updates.</li>
+        <li>Matched 290 of 400 rows with UPC, model code, and title similarity, flagging 110 for review, with Claude used only for unclear lines.</li>
+        <li>Next: live ecommerce integrations (channel updates are simulated today) and testing on real seller stock lists.</li>
+      </ul>
+      <p class="links"><a href="https://claude.ai/artifact/RLeHC79bhZhTkcvcghrfqr" target="_blank" rel="noopener">Open live prototype</a></p>
+    </article>
+
+    <article data-id="antworks" data-stage="Control">
+      <h3>Exception control</h3>
+      <p class="meta">Quality Analyst, USC Financial and Business Services / ANTWORKS, Jan 2026 to present</p>
+      <div class="metrics"><div><b>~25%</b><span>fewer daily processing errors</span></div><div><b>200-300</b><span>transactions a day</span></div><div><b>2</b><span>integrated systems</span></div></div>
+      <ul>
+        <li>Analyzed recurring exception patterns across 2 integrated systems and partnered with engineering and operations on workflow fixes.</li>
+        <li>Standardized issue ownership, escalation, and resolution tracking to improve accountability.</li>
+      </ul>
+    </article>
+  </div>
+
+  <section id="kpis">
+    <div class="wrap">
+      <h2><span class="sec-num">01</span>Network Performance</h2>
+      <div class="stats" style="margin-top:0">
+        <div class="stat"><b>98%</b><span>on-time delivery, $2.1M project</span></div>
+        <div class="stat"><b>35%</b><span>faster dispatch</span></div>
+        <div class="stat"><b>~30%</b><span>fewer stockouts</span></div>
+        <div class="stat"><b>25%</b><span>lower forecast error</span></div>
+        <div class="stat"><b>26.5%</b><span>safety stock reduction</span></div>
+        <div class="stat"><b>11%</b><span>material cost reduction</span></div>
+        <div class="stat"><b>~34%</b><span>procurement cost recovered</span></div>
+        <div class="stat"><b>30+</b><span>suppliers onboarded</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resilience">
+    <div class="wrap">
+      <h2><span class="sec-num">02</span>Network Resilience</h2>
+      <p>How I have handled the usual ways a supply chain breaks.</p>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Disruption</th><th>Where</th><th>Response</th><th>Result</th></tr></thead>
+          <tbody>
+            <tr><td>Supplier misses a delivery</td><td>Kiravi</td><td>Dual-sourced key products across two qualified suppliers</td><td>One miss did not halt fulfillment</td></tr>
+            <tr><td>Demand surge outpaces supply</td><td>Kiravi</td><td>Prepay-and-hold for agreed pricing and priority access</td><td>Stock secured for peak demand</td></tr>
+            <tr><td>Slow dispatch and stockouts</td><td>Kiravi</td><td>Vendor-managed drop-ship fulfillment</td><td>Dispatch down 35%, stockouts down about 30%</td></tr>
+            <tr><td>Aging inventory ties up cash</td><td>Kiravi</td><td>Sell-through analysis and a targeted clearance campaign</td><td>About 34% of procurement cost recovered</td></tr>
+            <tr><td>Seasonal demand spike</td><td>Forecasting project</td><td>Modeled Eid seasonality, reorder points, and safety stock</td><td>25% lower forecast error, 26.5% less safety stock</td></tr>
+            <tr><td>Uncompetitive material cost</td><td>Midway</td><td>BOQ and supplier price analysis</td><td>Third-highest to lowest-cost bid, 11% cost cut</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="profile">
+    <div class="wrap">
+      <h2><span class="sec-num">03</span>Profile</h2>
+      <div class="two-col">
+        <div class="box">
+          <h3>Education and credentials</h3>
+          <ul>
+            <li>M.S. Engineering Management, USC Viterbi, expected May 2027, GPA 3.50</li>
+            <li>Graduate Certificate, Optimization and Supply Chain Management</li>
+            <li>B.Tech, Electronics and Communication Engineering, Manipal University Jaipur, GPA 3.42/4.00</li>
+            <li>CAPM, PMI (valid through Aug 2029)</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Skills</h3>
+          <div class="pills">
+            <span class="pill">Strategic sourcing</span><span class="pill">Dual sourcing and TCO</span><span class="pill">Demand forecasting</span><span class="pill">Safety stock and reorder points</span><span class="pill">Newsvendor model</span><span class="pill">Supplier onboarding</span><span class="pill">Inventory planning</span><span class="pill">RFQs and purchase orders</span><span class="pill">Python</span><span class="pill">Prophet</span><span class="pill">Streamlit</span><span class="pill">SQL</span><span class="pill">Excel</span><span class="pill">Tableau</span><span class="pill">Power BI</span><span class="pill">Microsoft 365</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2><span class="sec-num">04</span>Contact</h2>
+      <p>Open to supply chain internships and full-time roles. Based in Los Angeles.</p>
+      <p class="contact">
+        <a href="mailto:pandeym@usc.edu">pandeym@usc.edu</a>
+        <a href="https://linkedin.com/in/mayank-manish-pandey">LinkedIn</a>
+        <a href="resume-supply-chain.pdf">Resume (PDF)</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; 2026 Mayank Manish Pandey</div>
+</footer>
+
+<script>
+(function () {
+  var net = document.getElementById('net');
+  var svg = document.getElementById('lines');
+  var panel = document.getElementById('panel');
+  var nodes = {};
+  document.querySelectorAll('.node').forEach(function (n) { nodes[n.dataset.id] = n; });
+
+  // Flow edges: sourcing -> making -> delivering -> serving demand
+  var edges = [
+    ['kiravi-sup', 'kiravi-ful'],
+    ['midway-proc', 'midway-inst'],
+    ['midway-inst', 'secure'],
+    ['kiravi-ful', 'secure'],
+    ['solus', 'secure']
+  ];
+
+  function rel(el) {
+    var a = el.getBoundingClientRect(), b = net.getBoundingClientRect();
+    return { l: a.left - b.left, r: a.right - b.left, t: a.top - b.top, b: a.bottom - b.top, cx: (a.left + a.right) / 2 - b.left, cy: (a.top + a.bottom) / 2 - b.top };
+  }
+
+  function draw() {
+    var w = net.clientWidth, h = net.clientHeight;
+    svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
+    var out = '';
+    edges.forEach(function (e) {
+      var a = nodes[e[0]], b = nodes[e[1]];
+      if (!a || !b) return;
+      var p = rel(a), q = rel(b), d;
+      if (q.l > p.r + 8) {
+        var x1 = p.r, y1 = p.cy, x2 = q.l, y2 = q.cy, dx = (x2 - x1) / 2;
+        d = 'M' + x1 + ' ' + y1 + ' C' + (x1 + dx) + ' ' + y1 + ',' + (x2 - dx) + ' ' + y2 + ',' + x2 + ' ' + y2;
+      } else {
+        var s = p.cy < q.cy ? p : q, t = p.cy < q.cy ? q : p;
+        var rev = p.cy >= q.cy;
+        var x1 = (rev ? q : p).cx, y1 = (rev ? q : p).b, x2 = (rev ? p : q).cx, y2 = (rev ? p : q).t, dy = (y2 - y1) / 2;
+        d = 'M' + x1 + ' ' + y1 + ' C' + x1 + ' ' + (y1 + dy) + ',' + x2 + ' ' + (y2 - dy) + ',' + x2 + ' ' + y2;
+      }
+      out += '<path data-a="' + e[0] + '" data-b="' + e[1] + '" d="' + d + '"></path>';
+    });
+    svg.innerHTML = out;
+    highlight(current);
+  }
+
+  var current = null;
+  function highlight(id) {
+    svg.querySelectorAll('path').forEach(function (p) {
+      p.classList.toggle('on', !!id && (p.dataset.a === id || p.dataset.b === id));
+    });
+  }
+
+  function show(id, scroll) {
+    var src = document.querySelector('#details article[data-id="' + id + '"]');
+    if (!src) return;
+    current = id;
+    Object.keys(nodes).forEach(function (k) { nodes[k].classList.toggle('active', k === id); });
+    panel.innerHTML = '<div class="stage-tag">' + src.dataset.stage + '</div>' + src.innerHTML;
+    highlight(id);
+    if (scroll && window.innerWidth < 860) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  Object.keys(nodes).forEach(function (k) {
+    nodes[k].addEventListener('click', function () { show(k, true); });
+  });
+
+  window.addEventListener('resize', draw);
+  window.addEventListener('load', draw);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(draw);
+  draw();
+  show('kiravi-sup', false);
+})();
+</script>
+</body>
+</html>
